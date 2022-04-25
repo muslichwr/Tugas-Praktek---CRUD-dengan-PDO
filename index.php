@@ -105,7 +105,6 @@ if(isset($_POST['submit'])){
 	<button class="btn btn-success" type="button" data-toggle="modal" data-target="#myModal">
   <i class="fa fa-plus"></i> Add New Student
   </button>
-  <a href="export.php" class="btn btn-success pull-right"><i class="fa fa-download"></i> Export Data</a>
   <hr>
 		<table class="table table-bordered table-striped table-hover" id="myTable">
 		<thead>
@@ -182,8 +181,6 @@ if(isset($_POST['submit'])){
 			
 			
 		</table>
-		<form method="post" action="export.php">
-     <input type="submit" name="export" class="btn btn-success" value="Export Data" />
     </form>
 	</div>
 
